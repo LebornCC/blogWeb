@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>taleyoung's blog</title>
+    <link rel="stylesheet" href="css/new-blog.css">
+    <!-- <link media="(max-width:768px)" rel="stylesheet" href="mobile.css"> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/mymain.js"></script>
+</head>
+
+<body>
+    <div class="side-bar">
+        <!--利用label标签链接checkbox 用来美化菜单按键-->
+        <label id="menu-toggle" for="menu-checkbox">菜单</label>
+        <!-- 利用checkbox标签来隐藏显示mav-->
+        <input id="menu-checkbox" type="checkbox">
+        <div class="touxiang">
+            <img src="images/touxiang.jpg" alt="">
+        </div>
+        <div class="header">
+            <a href="taleyoung.html" class="logo">用户名get</a>
+            <div class="intro">简短的介绍 从后台获取get</div>
+        </div>
+        <div class="nav">
+            <a href="#" class="item">关于我</a>
+            <a href="#" class="item">赞助我</a>
+            <a href="#" class="item">喜欢我</a>
+        </div>
+        <div class="tag-list">
+            <a href="#" class="item">前端</a>
+            <a href="#" class="item">算法</a>
+            <a href="#" class="item">机器学习</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title">
+            <div class="biaoti">
+                <img src="images/标题.png" alt="" style="width:30px"> 文章标题
+            </div>
+            <input type="text" id="title">
+        </div>
+        <div class="content">
+            <div class="zhengwen">
+                <img src="images/正文.png" alt="" style="width:30px">开始你的博客创作
+                <!-- <button class="btn">点击提交</button> -->
+            </div>
+            <textarea name="" id="content" cols="30" rows="10">
+                
+            </textarea>
+            <div class="last">
+                <button class="btn btn-success" id="blog_submit">发表</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

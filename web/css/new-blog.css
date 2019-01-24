@@ -1,0 +1,130 @@
+body {
+    line-height: 1.7em;
+    /* background-image: url(大图1.jpg) */
+}
+
+a {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a,
+body {
+    color: #828282;
+}
+
+.side-bar {
+    float: left;
+    width: 20%;
+    position: fixed;
+    background-color: #EEEED1;
+}
+
+.side-bar>* {
+    padding: 10px 15px;
+}
+
+.side-bar .nav a,
+.side-bar .tag-list a {
+    display: block;
+    padding: 5px;
+    color: #888;
+    transition: color 100ms;
+}
+
+.side-bar .nav a {
+    font-weight: 700;
+}
+
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover {
+    color: #eee;
+}
+
+nav>item {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.main {
+    float: right;
+    width: 77%;
+    background-color: #fff;
+    /* background-color: #CCCCCC; */
+    color: #454545
+}
+
+.header {
+    border-bottom: 10px solid white;
+}
+
+.touxiang {
+    margin: 5px 45px;
+    width: 100px;
+    height: 100px;
+}
+
+.touxiang>img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .logo {
+    display: inline-block;
+    line-height: 50px;
+    border: 5px solid #eee;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.side-bar>.nav {
+    border-bottom: 10px solid white;
+}
+
+#menu-checkbox,
+#menu-toggle {
+    display: none;
+}
+
+.title {
+    margin-top: 30px;
+    height: 60px;
+}
+
+.title>input {
+    border: 1px solid #787878;
+    width: 300px;
+    height: 25px;
+}
+
+.title>.biaoti {
+    font-size: 1.3em;
+}
+
+.content {
+    margin-top: 30px;
+    height: 500px;
+}
+
+.content>.zhengwen {
+    font-size: 1.3em;
+}
+
+.btn {
+    /* background-color: #858585; */
+    border: 2px solid #858585;
+    height: 30px;
+    width: 506px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #7EC0EE;
+}
+
+.content>textarea {
+    border: 1px solid #787878;
+    height: 330px;
+    width: 500px;
+}
